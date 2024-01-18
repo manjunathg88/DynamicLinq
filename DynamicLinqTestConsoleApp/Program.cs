@@ -17,7 +17,7 @@ var studentByHouseResult = students
 
 foreach (var student in studentByHouseResult)
 {
-    Console.WriteLine("{0}\t\t{1}\t{2}", student.Name, student.House?.Name, student.Age);
+    Console.WriteLine($"{student.Name}\t\t{student.House?.Name}\t{student.Age}");
 }
 
 
@@ -39,7 +39,7 @@ var lambdaResult = students
 
 foreach (var student in lambdaResult)
 {
-    Console.WriteLine("{0}\t\t{1}\t{2}", student.Name, student.House?.Name, student.Age);
+    Console.WriteLine($"{student.Name}\t\t{student.House?.Name}\t{student.Age}");
 }
 
 
@@ -54,7 +54,7 @@ var groupSortResult = students
 
 foreach (var student in groupSortResult)
 {
-    Console.WriteLine("{0}\t\t{1}\t{2}", student.Name, student.House?.Name, student.Age);
+    Console.WriteLine($"{student.Name}\t\t{student.House?.Name}\t{student.Age}");
 }
 
 
@@ -78,7 +78,7 @@ var selectStudents = students
 
 foreach (var student in selectStudents)
 {
-    Console.WriteLine("{0}\t\t{1}\t{2}", student.Name, student.Gender, student.House);
+    Console.WriteLine($"{student.Name}\t\t{student.Gender}\t{student.House}");
 }
 
 Console.WriteLine("\n");
